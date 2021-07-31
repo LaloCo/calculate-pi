@@ -11,7 +11,7 @@ def calculate_pi(n):
         y = random.uniform(0,1)
         # pithagoras theorem, no need to square root
         # if value is <1 its square root is also <1
-        # same for values >1
+        # and the square root for values >1 are >1
         dist_to_origin = x**2 + y**2
         if dist_to_origin < 1:
             inside_circle = inside_circle + 1
